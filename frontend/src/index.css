@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary:     #FDFBF7;
+  --bg-card:        #FFFFFF;
+  --bg-elevated:    #F9F8F6;
+  --border-subtle:  #EAE5DE;
+
+  --neon-fitness:   #A3B18A;
+  --neon-health:    #E07A5F;
+  --neon-wealth:    #F2CC8F;
+  --neon-love:      #E5989B;
+  --neon-happy:     #81B29A;
+
+  --text-primary:   #3A322C;
+  --text-secondary: #857B70;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#root {
+  width: 100%;
+}
+
+.bg-primary { background-color: var(--bg-primary); }
+.bg-card { background-color: var(--bg-card); }
+.bg-elevated { background-color: var(--bg-elevated); }
+.border-subtle { border-color: var(--border-subtle); }
+
+.text-primary { color: var(--text-primary); }
+.text-secondary { color: var(--text-secondary); }
